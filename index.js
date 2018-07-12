@@ -12,3 +12,7 @@ function deepestChild() {
   }
   return lis
   }
+
+function nestedTarget() {
+  return document.querySelector('#nested .target')
+}
